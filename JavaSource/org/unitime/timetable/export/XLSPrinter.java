@@ -400,8 +400,7 @@ public class XLSPrinter implements Printer {
     	double totalWidthMM = 0.0D;
     	double colWidthMM = 0.0D;
     	double overlapMM;
-    	double coordinatePositionsPerMM=0;
-	    
+    	double coordinatePositionsPerMM;
     	int toColumn = startingColumn;
     	int inset;
 
@@ -466,7 +465,7 @@ public class XLSPrinter implements Printer {
         double rowHeightMM = 0.0D;
         double totalRowHeightMM = 0.0D;
         double overlapMM;
-        double rowCoordinatesPerMM=0;
+        double rowCoordinatesPerMM;
         int toRow = startingRow;
         int inset;
 
